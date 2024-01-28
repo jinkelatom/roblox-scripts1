@@ -1,4 +1,7 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jinkelatom/roblox-scripts1/main/hitbox%20expender%201(GUI%20Version)"))()
+loadstring(game:HttpGet(""))()
+
+--shift lock 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jinkelatom/roblox-scripts1/main/shift%20lock%20mobile"))()
 
 -- spy --
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jinkelatom/roblox-scripts1/main/remote%20spy"))()
