@@ -1,5 +1,5 @@
 crashy = true -- CHANGE THIS TO TRUE IF IT CRASHES THIS GAME
-on = false
+on = true
 if game.CoreGui:FindFirstChild('ESP') then
 	game.CoreGui.ESP:Destroy()
 elseif game.Players.LocalPlayer.PlayerGui:FindFirstChild('ESP') then
