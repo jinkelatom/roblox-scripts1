@@ -9,7 +9,7 @@
 
 -- // Dependencies
 local Library, AimingTab, _ = loadstring(game:HttpGet("https://raw.githubusercontent.com/jinkelatom/roblox-scripts1/main/Test%20%3A%20silent%20aim(NPC)%20GUI"))()
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/jinkelatom/roblox-scripts1/main/Test%20%3A%20silent%20aim(NPC)%20Load"))()("Module")
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/jinkelatom/roblox-scripts1/main/Test%20%3A%20silent%20aim(NPC)%20Load"))()
 local AimingChecks = Aiming.Checks
 local AimingSelected = Aiming.Selected
 local AimingSettingsIgnored = Aiming.Settings.Ignored
