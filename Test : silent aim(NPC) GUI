@@ -37,9 +37,9 @@ do
         local Parts = {}
 
         -- // Loop through Players
-        for _, Player in ipairs(Players:GetPlayers()) do
+        for _, NPC in ipairs(game:GetService("Workspace").enemies:GetChildren()) do
             -- // Attempt to get their character
-            local Character = AimingUtilities.Character(Player)
+            local Character = AimingUtilities.Character(NPC)
             if (not Character) then
                 continue
             end
