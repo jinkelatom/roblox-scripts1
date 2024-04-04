@@ -214,7 +214,7 @@ local function getClosestPlayer()
     if not Options.TargetPart.Value then return end
     local Closest
     local DistanceToMouse
-    for _, Player in ipairs(Players:GetPlayers()) do
+    for _, Player in next, GetPlayers(Players) do
         if Player == LocalPlayer then continue end
         if Toggles.TeamCheck.Value and Player.Team == LocalPlayer.Team then continue end
 
