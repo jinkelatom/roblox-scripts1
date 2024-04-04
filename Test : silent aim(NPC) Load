@@ -71,8 +71,8 @@ local AimingSettings = {
     InternalEnabled = false, -- // Do not modify, for internal use only
     GUIAutoShow = true,
 
-    VisibleCheck = true,
-    TeamCheck = true,
+    VisibleCheck = false,
+    TeamCheck = false,
     PlayerCheck = true,
     FriendCheck = true,
     ForcefieldCheck = true,
