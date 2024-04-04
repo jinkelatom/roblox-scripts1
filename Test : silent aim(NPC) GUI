@@ -6,7 +6,7 @@ local SaveManager = loadstring(game:HttpGet(LinoriaRepo .. "addons/SaveManager.l
 
 local Aiming = getgenv().Aiming
 if (not Aiming) then
-    Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Load.lua"))()()
+    Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/jinkelatom/roblox-scripts1/main/Test%20%3A%20silent%20aim(NPC)%20Load"))()()
 end
 repeat wait() until Aiming.Loaded
 
@@ -14,6 +14,7 @@ local AimingSettings = Aiming.Settings
 local AimingUtilities = Aiming.Utilities
 
 -- // Services
+local NPCpath = game:GetService("Workspace").enemies
 local Players = game:GetService("Players")
 local Teams = game:GetService("Teams")
 
@@ -37,9 +38,9 @@ do
         local Parts = {}
 
         -- // Loop through Players
-        for _, Player in ipairs(Players:GetPlayers()) do
+        for _, NPC in ipairs(NPCpath:GetChildren()) do
             -- // Attempt to get their character
-            local Character = AimingUtilities.Character(Player)
+            local Character = AimingUtilities(NPC)
             if (not Character) then
                 continue
             end
