@@ -1,0 +1,11 @@
+getgenv().Config = {
+    ['Size'] = 40, -- recommended
+    ['InnerColor'] = Color3.fromRGB(170, 0, 255),
+    ['OuterColor'] = Color3.fromRGB(0,0,0),
+    ['AutoDisable'] = false,
+    ['Keybind'] = Enum.KeyCode.LeftBracket,
+    ['Hitpart'] = 'Head',
+    ['UI'] = true,
+    ['HideBoxes'] = false,
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jinkelatom/roblox-scripts1/refs/heads/main/purple%20guy%20hitbox%20expanderer"))()
